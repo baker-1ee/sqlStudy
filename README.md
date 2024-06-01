@@ -7,7 +7,7 @@
       ```
   - colima 실행
       ```
-      colima start —memory 4 —arch x86_64
+      colima start -m 4 -a x86_64
       ```
   
   
