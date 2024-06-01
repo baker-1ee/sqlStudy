@@ -7,5 +7,3 @@ CREATE TABLE employees (
                            salary DECIMAL(10, 2),
                            PRIMARY KEY (employee_id)
 );
-
-select * from employees;

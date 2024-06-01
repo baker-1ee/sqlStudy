@@ -8,6 +8,3 @@ CREATE TABLE employees (
                            salary NUMBER,
                            PRIMARY KEY (employee_id)
 );
-
-
-select * from employees;
