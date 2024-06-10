@@ -28,4 +28,13 @@ SELECT TRIM(TRAILING 'x' FROM 'Helloxxx') AS trimmed_string FROM dual;
 SELECT parameter, value FROM nls_database_parameters WHERE parameter = 'NLS_CHARACTERSET';
 SELECT userenv('language') FROM dual;
 
+select concat('Hello', 'World') from dual;
+-- HelloWorld
+select 'Hello' || 'World' || '2' from dual;
+-- HelloWorld2
 
+SELECT CAST('123' AS NUMBER) AS number_value FROM dual;
+SELECT CAST(123 AS VARCHAR2(10)) AS string_value FROM dual;
+SELECT TO_CHAR(123) AS string_value FROM dual;
+SELECT TO_DATE('2024-06-04', 'YYYY-MM-DD') AS date_value FROM dual;
+SELECT TO_NUMBER('123') AS number_value FROM dual;

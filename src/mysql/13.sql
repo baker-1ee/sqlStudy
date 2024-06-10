@@ -40,3 +40,11 @@ SELECT CHAR_LENGTH('안녕하세요') AS char_length;
 SHOW VARIABLES LIKE 'character_set_server';
 -- utf8mb4
 
+
+select concat('Hello', 'World');
+-- HelloWorld
+select concat('Hello', 'World', '2');
+-- HelloWorld2
+
+SELECT CAST('123' AS SIGNED) AS number_value;
+SELECT CAST(123 AS char ) AS string_value;
