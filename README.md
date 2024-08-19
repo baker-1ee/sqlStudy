@@ -14,5 +14,5 @@
 # 도커라이징
 - docker 컨테이너 실행
     ```
-    docker-compose up -d
+    docker compose up -d
     ```
